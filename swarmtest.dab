@@ -1,0 +1,17 @@
+{
+  "Services": {
+    "hello": {
+      "Image": "naki/hello@sha256:02876ef24e316b0bef608a0b1f7226931c35eed6479d371e1fa01a317b9bbf33", 
+      "Networks": [
+        "default"
+      ], 
+      "Ports": [
+        {
+          "Port": 3000, 
+          "Protocol": "tcp"
+        }
+      ]
+    }
+  }, 
+  "Version": "0.1"
+}

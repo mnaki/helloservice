@@ -1,0 +1,9 @@
+version: "3.0"
+
+services:
+
+  hello:
+    image: naki/hello
+    build: ./hello-as-a-service
+    ports:
+      - 8000:3000
